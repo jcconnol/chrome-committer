@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(
     async function(request, sender, sendResponse) {
         chrome.storage.sync.get([
-            "someVar"
+            "githubPersonalKey"
         ], async function(result) {
             
 

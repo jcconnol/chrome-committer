@@ -1,9 +1,9 @@
 {
-    "name": "Spell Check Extension",
+    "name": "CSS Committer",
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-        "default_title": "Click to open Spell Checker",
+        "default_title": "Click to open CSS Committer",
         "default_popup": "popup.html",
         "default_icon": {
             "16": "images/icon.png",
@@ -16,14 +16,10 @@
         "48": "images/icon.png",
         "128": "images/icon.png"
     },
-    "description": "This extension checks the page for spelling errors.",
+    "description": "This extension can allow you to make changes to a webpage and commit the changes to Github.",
     "content_scripts": [{
             "matches": ["<all_urls>"],
             "js": ["content.js"]
-    }],
-    "web_accessible_resources": [{
-        "resources": [ "dictionary.json" ],
-        "matches": ["<all_urls>"]
     }],
     "permissions": [
         "activeTab",
