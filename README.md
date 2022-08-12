@@ -6,4 +6,4 @@ Have you made changes to a webpage in a browser then you go to add it to your re
 
 ## what you need
 
-To make this work you will need to input a personal token into the window. You will also need the 
+To make this work you will need to input a personal token into the extension window. You will also need the repo url.
