@@ -16,3 +16,7 @@ chrome.runtime.onMessage.addListener(
         
     }
 );
+
+document.getElementById("github-login").addEventListener.on('click', function() {
+    console.log("clicked")
+})
